@@ -6,3 +6,160 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "poppins"; 
+    margin: 0; 
+}
+
+#logonav{
+    width: 200px;    
+}
+
+nav { 
+    width: 500px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 20px;    
+    padding: 0 10px;
+}
+
+#menu {
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 40px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+#bigimg{
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+   
+}
+
+#bigimg img{
+    width: 100%;  
+}
+
+#hi { 
+    position: absolute;
+    top: 380px; 
+    text-align: center;     
+}
+
+#hi p{
+    font-family: "poppins",medium;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+h1 {
+    font-family: "poppins",medium;
+    font-weight: 500;
+    font-size: 70px;
+    padding-bottom: 10px;
+}
+
+/* 2 */
+
+#adv img{
+height: 90px;
+}
+
+#adv{
+    display: flex;
+    padding: 100px 200px;
+    justify-content: space-between;
+}
+#adv div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  }
+
+#adv h3{
+    color: #00B172; 
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#adv p{
+    padding-top: 15px;
+    font-family: "poppins",thin;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#title{
+    width: fit-content;
+    border-bottom: solid  #00B172;
+    font-weight: lighter;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+#title h2{
+    font-size: 35px;
+    font-family: "poppins",thin;
+    font-weight: 500;
+}
+
+/* 3 */
+
+#green{
+    margin: 40px;
+    padding: 80px;
+    background-color: #00B172;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#green>img{
+    height:130px;
+    position: absolute;
+    left: 600px;
+    top: 300px;
+}
+
+#kanye{
+    width: fit-content;
+    border-bottom: white solid 4px;
+    font-size: 30px;
+    font-family: "poppins",thin;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+#green div img{
+    height: 550px;
+}
+
+#green section p, h3{
+    padding: 10px;
+}
+#green section p{
+font-size: 18px;
+font-weight: 300;
+}
+
+#green h3{
+    font-size: 25px;
+    font-weight: 600;
+}
